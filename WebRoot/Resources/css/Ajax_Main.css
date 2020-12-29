@@ -1,0 +1,40 @@
+.top {
+	width: 100%;
+	height: 8%;
+	background-color: #17233d;
+
+	color: #FFF;
+}
+
+.bottom {
+	width: 100%;
+	background-color: #17233d;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 90%;
+}
+
+.index {
+	flex: 1;
+	margin-right: 10px;
+}
+
+.index ul li{
+	border-radius : 30px;
+}
+
+.contain {
+	border: 1px solid #dcdee2;
+	background-color: #f8f8f9;
+	border-radius: 10px;
+	flex: 7;
+	width: 100%;
+}
+
+.top h2 {
+	text-align: center;
+	padding-top: 20px;
+}
